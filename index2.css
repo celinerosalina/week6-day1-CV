@@ -1,0 +1,120 @@
+body {
+  color: #7f7fd5;
+  font-family: "Montserrat";
+}
+
+.container .icon {
+  color: #7f7fd5 !important;
+  font-weight: 800;
+}
+
+/* css navbar */
+
+.nav-left {
+  justify-content: flex-end;
+}
+
+.carousel {
+  background-image: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  margin: 0px;
+  padding: 0px;
+  height: 450px;
+}
+
+.carousel h1 {
+  color: white;
+  font-weight: 800;
+}
+
+.carousel span {
+  font-weight: 800;
+  color: white;
+}
+
+.carousel p {
+  color: white;
+  font-weight: lighter;
+}
+
+.carousel img {
+  width: 80%;
+  height: 80%;
+}
+
+.carousel .description {
+  margin-top: 10%;
+}
+
+.carousel .illustration {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Akhir CSS Carousel */
+
+/* CSS About Me */
+
+.aboutme h3 {
+  font-weight: 800;
+  color: #7f7fd5;
+}
+
+.aboutme img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px grey;
+}
+
+.aboutme .col {
+  flex-basis: 375px;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Akhir About Me */
+
+@media screen and (max-width: 750px) {
+  .carousel img {
+    display: none;
+  }
+}
+
+.about-image {
+  flex-wrap: wrap;
+}
+
+.blog h3 {
+  font-weight: 800;
+  color: #7f7fd5;
+}
+
+.blog h5 {
+  font-weight: 800;
+  color: #86a8e7;
+}
+
+/* .blog .hr {
+  border-top: 3px solid #86a8e7 !important;
+} */
+
+.blog p {
+  font-size: 11px;
+}
+
+.footer {
+  background-color: #91eae4;
+}
+
+.footer a {
+  color: #3d727c;
+}
+
+.footer p {
+  color: #3d727c;
+}
